@@ -60,8 +60,8 @@ tasks.build {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'org.example'
-            artefactId = 'todo-app'
+            groupId = 'org.example' // f
+            artifactId = 'todo-app'
             version = project.version
 
 
