@@ -61,7 +61,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'org.example'
-            artefactId = 'todo-app'
+            artifactId = 'todo-app'
             version = project.version
 
 
